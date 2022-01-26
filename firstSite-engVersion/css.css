@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+ * {
+	 margin: 0;
+	 padding: 0;
+	 outline: none;
+ }
+ 
+ html {
+	 height: 100%;
+ }
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #333;
+	background: #f7f7f7;
+	font-size: 1em;
+	font-family: "Segoe UI" , sans-serif;
+	line-height: 135%;
+	background: url("https://www.designspiration.com/color/img/F9F06F.png")  ;
+}
+
+hr {
+	display: block;
+	border: 0px;
+	height: 1px;
+	border-top: 1px solid #ccc
+}
+
+a {
+	color:#f48b8b;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;	
+}
+
+a:hover {
+	color:#8b9ff5;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;	
+}
+
+a:active {
+	color: #8ce4a6
+}
+
+/* Slection block */
+
+::selection {
+	background-color: #f58b8b;
+	color: #fff;
+}
+
+::-moz-selection {
+	background-color: #f58b8b;
+	color: #fff;
+}
+
+img {
+	max-width: 100%;
+    height: auto; 
+	width: auto\9;
+}
+
+
+.right {
+	float: right;
+	color: black;
+}
+
+.left {
+	float: left;
+	color: black;
+}
+
+.clear {
+	clear: both;
+}
+
+header, footer {
+	width: 98%;
+	background-color: #fff;	
+	float: left;
+}
+
+header {
+	border-bottom: 2px solid silver;
+	padding: 1%;
+}
+ 
+#page-wrap:after {
+	 content: "";
+	 display: block;
+ }
+  
+  
+  
+ #page-wrap {
+	  min-height: 94%;
+	  margin-bottom: -10px;
+  }
+  
+#logo {
+	font-size: 2em;
+	font-family: Comic Sans MS, sans-serif;
+	color: #90EE90;
+}
+
+.contact {
+	font-size: 1.5em;
+	font-family: Comic Sans MS, sans-serif;
+	margin-left: 20px;
+}
+
+input[type=text].field {
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	margin-left: 20px;
+}
+
+input[type=text].field:focus {
+	border: 2px solid #f58b8b;
+}
+
+/*Основные стили для сайта*/
+
+#wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#wrapper #articles {
+    float: left;
+    margin-left: 10%;
+    width: 80%;	
+}
+
+#wrapper #articles article {
+	float:left;
+	width: 31.3333333%;
+	border: 1px solid silver;
+	border-radius: 5px;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	margin-right: 2%;
+	min-height: 400px;
+}
+
+#wrapper #articles img {
+	width: 100%;
+	height: 200px ;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+ 
+ #wrapper #articles h1 {
+	width: 90%;
+	margin-left: 5%;
+	font-weight: normal;
+	font-size: 1.7 em;
+	color: #4a4a4a
+ }
+ 
+ #wrapper #articles p {
+	width: 80%;
+	color: black;
+	margin-left: 10%;
+	text-indent: 1em;
+ }
+
+
+/*Стили для О нас*/  
+
+#about_us  {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	border-color: #fafafa;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	padding: 1%;
+}  
+#about_us center {
+	color:black;
+}
+	
+/*Сдесь будут стии для основного блока*/
+ 
+ 
+#main_soc_block {
+	width: 100%;
+	padding: 2% 0;
+	border-bottom: 2px solid silver;	
+    border-top: 2px solid silver;	
+	margin: 20px 0;
+	float: left;
+	background: url("https://avatanplus.com/files/resources/original/5bf90aff5b37d16744d2f58e.jpg") repeat-x 0;
+	height: 200px;
+	color: black;
+}
+ 
+ #main_soc_block_in {
+	 text-align: center;
+	 padding: 1%;
+	 color: black;
+	 height: 200px;
+	 background-color: #fafafa;
+	 border: 1px solid silver;
+	 border-radius: 7px;
+	 width: 400px;
+	 max-width: 98%;
+	 box-sizing: border-box;
+ }
+#last {
+	margin-bottom: 30px;
+}
+ 
+#ar {
+	padding: 5px 10px;
+	background-color: #e9af32;
+	border-radius: 6px;
+	color: #fff;
+}
+ 
+/* Стили для футера*/
+
+footer {
+	border-top: 2px solid silver;
+	margin-top: 10px;
+	padding: 1%;
+	padding-bottom: 2%;	
+}
+
+#menu {
+	color: #666;
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 1.7em;
+}
+
+#menu hr {
+	width: 500px;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#menuHrefs a{
+    padding: 5px 10px;
+    border-radius:5px;
+	margin-right: 5px;
+	color: #626262
+}
+#menuHrefs a:hover {
+	color: black
+}
+
+footer img {
+	width: 11%;
+}
+
+footer, #page-wrap {
+	  height: 10px
+  }
